@@ -20,7 +20,7 @@ namespace Vazifa{
             bool divide = amal == '/';
 
             int result = ((firstNumber+secondNumber)*Convert.ToInt32(add) + (firstNumber-secondNumber)*Convert.ToInt32(subtract)+(firstNumber*secondNumber)*Convert.ToInt32(multiply)+(firstNumber/secondNumber)*Convert.ToInt32(divide));
-            //Agar bool amal o'zgaruvchisi qaysidir to'rt amaldan  birini olsa 
+            //Agar bool amal o'zgaruvchisi qaysidir to'rt amaldan  birini olsa shu joyi hisoblanadi.
             Console.WriteLine($"Natija: {result}");
 
 
